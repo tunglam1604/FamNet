@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FamNet</string>
+    <string name="task_name">Task Name</string>
+    <string name="task_reward">Reward</string>
+    <string name="task_description">Description</string>
+    <string name="task_deadline">Deadline</string>
+    <string name="task_create">Create Task!</string>
+    <string name="task_take">Take</string>
+    <string name="navigation_chat">Chat</string>
+    <string name="navigation_tasks">Tasks</string>
+    <string name="navigation_personal_tasks">Personal</string>
+    <string name="navigation_account">Account</string>
+    <string name="account_name">Name</string>
+    <string name="account_family">Family</string>
+    <string name="account_role">Role</string>
+    <string name="account_email">Email</string>
+    <string name="account_password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="empty_string"></string>
+    <string name="send_button">Send</string>
+    <string name="save_button">save</string>
+
+    <string name="new_password">Enter a new password</string>
+</resources>

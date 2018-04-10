@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/new_task_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionNext"
+        android:gravity="top|left"
+        android:inputType="text"
+        android:maxLength="40"
+        android:ellipsize="end"
+        android:hint="@string/task_name"/>
+
+
+    <EditText
+        android:id="@+id/new_task_reward_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionNext"
+        android:gravity="top|left"
+        android:inputType="text"
+        android:maxLength="40"
+        android:ellipsize="end"
+        android:hint="@string/task_reward"/>
+
+    <EditText
+        android:id="@+id/new_task_description_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:maxLength="60"
+        android:ellipsize="end"
+        android:gravity="top|left"
+        android:hint="@string/task_description" />
+
+    <LinearLayout
+        android:id="@+id/DeadLineLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+
+        <TextView
+            android:id="@+id/new_task_deadline_text_view"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:hint="@string/task_deadline"/>
+        <ImageView
+            android:id="@+id/CalendarIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            app:srcCompat="@drawable/calendaricon"
+            app:layout_constraintLeft_toRightOf="@+id/new_task_deadline_text_view" />
+
+
+    </LinearLayout>
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/assign_to_spinner"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/task_create_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/task_create"/>
+
+
+</LinearLayout>

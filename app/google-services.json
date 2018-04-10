@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "897133886221",
+    "firebase_url": "https://famnet-4bc08.firebaseio.com",
+    "project_id": "famnet-4bc08",
+    "storage_bucket": "famnet-4bc08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897133886221:android:807b921138d04dab",
+        "android_client_info": {
+          "package_name": "com.famnet.famnet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897133886221-d0m2rnfed0cch29a5nlhgnunrqhec8j5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.famnet.famnet",
+            "certificate_hash": "02e708e119d06dc2b728962ac7467358acbb7f63"
+          }
+        },
+        {
+          "client_id": "897133886221-r93f25301kp5tk60q941l1bau4ie76p9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV97fQjYL6-72ZwVg2acbDv6fU0lDRLew"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897133886221-r93f25301kp5tk60q941l1bau4ie76p9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
